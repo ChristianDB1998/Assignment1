@@ -12,17 +12,17 @@
 
      public function setModel(Model $m)
      {
-         $this->model = $m;
+        $this->model = $m;
      }
 
      public function setView(View $v)
      {
-         $this->view = $v;
+        $this->view = $v;
      }
 
      public function getModel()
      {
-         return $this->model;
+        return $this->model;
      }
 
      public function getView()
@@ -32,7 +32,5 @@
 
      abstract public function run(): void;
  }
-
-}
 
 ?>

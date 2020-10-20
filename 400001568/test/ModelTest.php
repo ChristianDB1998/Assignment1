@@ -47,12 +47,13 @@
 
         public function testNotify()
         {
+            
 
         }
 
         public function testGetObservers()
         {
-            $model->attach($view)
+            $model->attach($view);
         }
     }
 
